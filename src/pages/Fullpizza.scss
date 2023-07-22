@@ -1,0 +1,68 @@
+.root {
+	text-align: center;
+	align-items: center;
+
+	h2 {
+		margin: 20px 0;
+		font-size: 30px;
+		font-weight: bold;
+		color: #fe5f1e;
+	}
+	h4 {
+		font-size: 20px;
+		color: #fe5f1e;
+		border-right: 1px solid;
+		width: 180px;
+	}
+	p {
+		font-size: 16px;
+		font-weight: 700;
+	}
+}
+
+.pizza_img {
+	margin: 20px auto;
+	width: 400px;
+	border-radius: 25%;
+	animation: spin 40s linear 0s infinite normal forwards;
+}
+
+.table {
+	padding: 15px;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.table-column {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px solid #908f8f75;
+	padding: 8px;
+	border-radius: 10px;
+}
+
+.table-info {
+	display: flex;
+	gap: 40px;
+}
+
+.poison_risk {
+	width: 730px;
+}
+.height_rating {
+	color: green;
+}
+
+.low_rating {
+	color: red;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
